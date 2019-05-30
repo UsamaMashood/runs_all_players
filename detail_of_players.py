@@ -97,6 +97,7 @@ for index,links in enumerate(data_links):
                     a.append(runs.replace('\n',''))
                 else:
                     a.append(runs)
+                a.append(teams[index])
                 sheet.append(a)
 
 
